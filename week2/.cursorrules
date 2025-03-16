@@ -1,0 +1,34 @@
+meta:
+  description: "Rules to guide AI in step-by-step development of a NextJS app for joke generation with customizable features."
+
+rules:
+  - name: Landing Page
+    steps:
+      - "Create a simple landing page with a description of the app."
+      - "Link to the main joke generation page."
+
+  - name: AI Joke Generation
+    steps:
+      - "Develop a React component for joke generation using an AI model."
+      - "Integrate the OpenAI API for joke creation, ensuring secure API calls and error handling."
+
+  - name: Customize Joke Parameters
+    steps:
+      - "Create a form with options for topic, tone, type of joke, and creativity level (temperature)."
+      - "Implement `react-hook-form` combined with `Zod` or `Joi` for form validation."
+
+  - name: Display Generated Jokes
+    steps:
+      - "Ensure jokes are displayed responsively within the same page once generated."
+      - "Add a loading spinner while waiting for API response."
+
+  - name: Joke Evaluation
+    steps:
+      - "Create a feature for the AI to evaluate whether jokes are funny, appropriate, or offensive."
+      - "Implement emoji or text-based badges indicating joke evaluation results."
+
+  - name: Deployment
+    steps:
+      - "Prepare the app for deployment using Vercel."
+      - "Set up continuous deployment through a CI/CD pipeline."
+# Additional rules can be added based on future project expansion or feature requests.
