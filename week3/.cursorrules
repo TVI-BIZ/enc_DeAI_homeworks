@@ -1,0 +1,33 @@
+# .cursorrules
+
+this is project create by npx create-next-app story_app2 command.
+✔ Would you like to use TypeScript with this project? … No / Yes
+✔ Would you like to use ESLint with this project? … No / Yes
+✔ Would you like to use Tailwind CSS with this project? … No / Yes
+✔ Would you like to use `src/` directory with this project? … No / Yes
+✔ Would you like to use experimental `app/` directory with this project? … No / Yes
+? What import alias would you like configured? › @/\*
+
+use curent project structure and languages it have. This is Typescript and Javascript project.
+Implement these steps in premade npm project. Run this project as npm run dev.
+instructions:
+
+- follow:
+  - "Implement a table of characters allowing users to create, add, edit, and delete characters."
+  - "Each character should have fields: name, description, and personality."
+- prompt:
+  - "Customize prompts to integrate user-created characters into story generation if any exist."
+- summary:
+  - "Generate a summary for each character's role post story generation."
+- test:
+  - "Compare outputs of different models for story generation."
+  - "Evaluate model retention of user characters."
+  - "Experiment with context window sizes for varying impacts on output."
+  - "Test models of differing sizes to observe output variations."
+- compatibility:
+  - "Use models compatible with your device, focusing on experiment data rather than story quality."
+
+best_practices:
+
+- structure:
+  - "Follow clean code practices to ensure maintainability and readability."
